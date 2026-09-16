@@ -1,0 +1,16 @@
+.gradle/
+.idea/
+*.iml
+local.properties
+*.keystore
+*.jks
+secrets.properties
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+artifacts/
+
+# Generated CI/local binary dependency
+app/libs/*.aar
