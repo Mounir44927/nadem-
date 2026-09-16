@@ -3,8 +3,8 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 LIBS="$ROOT_DIR/app/libs"
-AAR="$LIBS/sherpa-onnx-1.10.13.aar"
-URL="https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.10.13/sherpa-onnx-1.10.13.aar"
+AAR="$LIBS/sherpa-onnx-static-link-onnxruntime-1.13.8.aar"
+URL="https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.10.13/sherpa-onnx-static-link-onnxruntime-1.13.8.aar"
 
 command -v curl >/dev/null || { echo "curl is required" >&2; exit 1; }
 mkdir -p "$LIBS"
